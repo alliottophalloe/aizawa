@@ -5,7 +5,7 @@ Webshell ini memungkinkan Anda menjalankan perintah melalui permintaan HTTP deng
 - **Bypass `disable_function`**: Beberapa metode bypass disediakan untuk memastikan perintah tetap dijalankan meski ada pembatasan pada server.
 - **Output Encoding**: Output perintah diencode dengan base64 untuk menghindari deteksi.
 - **Logging**: Setiap akses dan perintah yang dijalankan akan dicatat dalam log.
-
+ 
 ## Instalasi
 1. Salin seluruh isi folder `src` ke server Anda.
 2. Edit file `config.php` dan atur kunci akses (`access_key`).
